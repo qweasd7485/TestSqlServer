@@ -1,0 +1,14 @@
+<!doctype html>
+{% load staticfiles %}
+<html>
+  <head>
+    <title>測試連接Sql Server!</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+  </head>
+  <body>
+  	{% include 'main/menu.html' %}
+    <h2>Django 很棒 -- Hello world! Test!</h2>
+    <p>{{ like }}</p>
+  </body>
+</html>
